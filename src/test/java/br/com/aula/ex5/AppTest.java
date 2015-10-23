@@ -1,5 +1,6 @@
 package br.com.aula.ex5;
 
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -18,6 +19,7 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
+       final PessoaTest p = new PessoaTest();
     }
 
     /**
